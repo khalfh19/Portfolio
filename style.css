@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    list-style: none;
+    overflow-x: hidden;
+}
+
+ul li{
+    list-style: none;
+}
+
+
+
+/* NAVBAR */
+
+.navbar input{
+    width: 900px;
+    margin-right: 40px;
+}
+
+.navbar button{
+    margin-right: 20%;
+}
+
+.navbar .tombol{
+    margin-left: 10px;
+}
+
+.navbar .dropdown{
+  display: block;
+}
+
+/* Dropup Button */
+.dropbtn {
+    background-color: #212529;
+    color: white;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropup content */
+  .dropup {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropup content (Hidden by Default) */
+  .dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 40px;
+    right: -1px;
+    background-color: #212529;
+    color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropup */
+  .dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  /* Show the dropup menu on hover */
+  .dropup:hover .dropup-content {
+    display: block;
+  }
+  
+  
+
+
+/* END */
+
+
+
+
+/* CONTENT, ISI */
+
+.Content{
+  margin-top: 200px;
+}
+
+.Content .card{
+  background-color: rgb(78, 78, 247);
+  color: white;
+}
+
+.Content h4{
+  font-size: 35px;
+  font-weight: 400;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* END */
+
+
+/* MODAL */
+
+.modal-content .pembayaran{
+  font-size: 20px;
+}
+
+.modal-content .gopay{
+  background-color: green;
+  color: white;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.modal-content .ovo{
+  background-color: indigo;
+  color: white;
+  font-size: 15px;
+}
+
+.modal-content .whatsapp {
+  background-color: rgb(0, 211, 0);
+  color: white;
+}
+
+.modal-content .whatsapp i{
+  margin-right: 10px;
+}
+
+.modal-content .ovo i{
+  margin-right: 10px;
+}
+
+.modal-content .gopay i{
+  margin-right: 10px;
+}
+
+
+/* END */
+
+
+
+
+/* LAINNYA */
+
+.Lainnya{
+  margin-top: 200px;
+}
+
+.Lainnya h4{
+  font-size: 35px;
+  font-weight: 400;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Lainnya h5{
+  color: white;
+}
+
+.Lainnya a{
+  width: 250px;
+}
+
+.Lainnya .card{
+  border: 1px solid black;
+  background-color: rgb(0, 0, 49);
+  margin-top: 20px;
+}
+
+
+/* END */
+
+
+/* FOOTER */
+
+footer{
+  margin-top: 200px;
+  background-color: rgb(214, 214, 214);
+  padding: 20px;
+}
+
+
+footer h4{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+}
+
+footer ul li a:hover{
+  color: black;
+}
+
+footer .PlayStore{
+  margin-top: -90px;
+}
+
+footer .PlayStore h4{
+  margin-top: -90px;
+  display: none;
+}
+
+footer .AppStore{
+  margin-top: -30px;
+}
+
+footer .AppStore h4{
+  margin-top: -90px;
+  display: none;
+}
+
+
+/* END */
+
+
+
+
+
+
+
+
+
+
+
+
+/* DESKTOP */
+
+@media (max-width: 1199.98px) {
+    .navbar button{
+        margin-right: 20%;
+    }
+
+    .navbar input{
+        width: 550px;
+        margin-right: 40px;
+    }
+
+    .navbar .dropdown{
+      display: none;
+    }
+
+    .Content .card{
+      margin-top: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .Lainnya .card{
+      margin-top: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    footer svg{
+      width: 500px;
+      height: 200px;
+    }
+}
+
+
+/* END */
+
+
+
+
+
